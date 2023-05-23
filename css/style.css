@@ -1,0 +1,57 @@
+*{
+    background-color: blanchedalmond;
+}
+
+#contador{
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    max-width: 300px;
+    border-radius: 1em;
+    border: solid 1px black;
+}
+
+#container{
+    margin-bottom: 25px;
+}
+
+button{
+    border-radius: 1em;
+    border-color: brown;
+}
+
+#butão{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.b{
+    margin-bottom: 10px;
+}
+
+#dez{
+    display: grid;
+}
+
+footer{
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+footer a:hover{
+    padding: 1px;
+    border-bottom: solid 1px red;
+}

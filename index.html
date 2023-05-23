@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 2</title>
+    <link rel="shortcut icon" href="img/config/favicon.ico" type="image/x-icon">
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="contador">
+        <div id="container">
+            <h1 id="title">Dia 1</h1>
+            <h2 id="conta">Conta 1 - Seguir e Curtir</h2>
+            <p id="video">Carro não visto = 0</p>
+            <p id="add">Carro visto = 0</p>
+        </div>        
+        <img id="i" src="img/vicenzo.jpg" alt="Conta de Idoso">
+    </div>
+
+    <div id="butão">
+        <div class="b" id="dias">
+            <label>Mais Dias </label>
+            <button type="button" onclick="addDia()">+</button>
+            <button type="button" onclick="removeDia()">-</button>
+        </div>
+        <div class="b">
+            <label>Trocar conta </label>
+            <button type="button" onclick="trocarConta()">></button>
+        </div>
+        <div class="b">
+            <label>Carro não visto</label>
+            <button onclick="viewVideo()" type="button" >+</button>
+            <button onclick="removeVideo()" type="button" >-</button>
+        </div>
+        <div class="b">
+            <label>Carro visto</label>
+            <button onclick="viewAnuncio()" type="button" >+</button>
+            <button onclick="removeAnuncio()" type="button" >-</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <p id="version">Site Versão 6.0.0 | <a href="https://pt.overleaf.com/5981463652fjbnknnfzsjq" target="_blank"> O artigo do trabalho</a>  </p>
+    </footer>
+</body>
+</html>
