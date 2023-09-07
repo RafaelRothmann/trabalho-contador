@@ -68,7 +68,7 @@ function trocarConta(){
     switch(conta){
         case 1:
             document.getElementById("conta").innerHTML="Conta 1 - Seguir e Curtir"
-            document.getElementById("i").src="img/vicenzo.jpg"
+            document.getElementById("i").src="files/img/vicenzo.jpg"
             document.getElementById("i").style.cssText=
             "max-width: 300px;" +
             "border-radius: 1em;" +
@@ -76,11 +76,11 @@ function trocarConta(){
         break;
         case 2:
             document.getElementById("conta").innerHTML="Conta 2 - Base"
-            document.getElementById("i").src="img/rafa.jpg"
+            document.getElementById("i").src="files/img/rafa.jpg"
         break;
         case 3:
             document.getElementById("conta").innerHTML="Conta 3 - Pesquisa Google"
-            document.getElementById("i").src="img/gian.png"
+            document.getElementById("i").src="files/img/gian.png"
             document.getElementById("i").style.cssText=
             "width: 200px;" +
             "border-radius: 1em;" +
@@ -88,7 +88,7 @@ function trocarConta(){
         break;
         default:
             document.getElementById("conta").innerHTML="da um F5"
-            document.getElementById("i").src="img/f5.jpg"
+            document.getElementById("i").src="files/img/f5.jpg"
         break;
     }
 }
